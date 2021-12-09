@@ -21,7 +21,7 @@ main{
     max-width: 1000px;
     min-width: 250px;
     margin: auto;
-    padding: 40px;
+    
     background-color: var(--cor03);
     border-radius: 8px;
 }
@@ -37,7 +37,8 @@ main p{
 }
 
 main h2{
-    padding-bottom: 20px;
+ 
+    margin: 20px;
 }
 
 main a {
@@ -71,7 +72,7 @@ main a:hover{
    
 }
 #txt_up{
-    background-color: white;
+    background: linear-gradient(to left, rgb(0,0,0,0)10%, white 75% );
     border-radius: 10px;
     max-width: 700px;
     padding: 20px;
@@ -81,7 +82,7 @@ main a:hover{
 }
 #txt_d {
     
-    background-color: white;
+     background: linear-gradient(to left, rgb(0,0,0,0)10%, white 75% );
     border-radius: 10px;
     max-width: 700px;
     padding: 20px;
@@ -100,7 +101,11 @@ main a:hover{
     max-width: 100px;
 }
 .imgcenter{
-    float:  left;
+    float: right;
+    
+}
+.imgcenter img{
+    border-radius: 10px;
 }
 #img2{
     max-width: 300px;
@@ -112,10 +117,16 @@ main a:hover{
 
 .tudo{
     display: table;
+    vertical-align: auto;
+    align-items:center ;
+}
+.tudo >img {
+    margin:auto;
 }
 .tudo > div{
     padding: 40px;
 }
 .menusobre{
     float:  left;
+    
 }

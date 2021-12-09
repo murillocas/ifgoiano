@@ -5,6 +5,8 @@
     --cor2 : #cae1f1;
     --cor3 : #b7d5eb;
     --cor4 : #c5eff7;
+    --conza-medio: #818283;
+    --cor13: #2EB3E8;
 
     --cor7: #127475;
     --cor8: #562C2C;
@@ -157,18 +159,18 @@ header{
         align-items: center;
         margin: 10px 0px;
         height: 70px;
-        background-color: var(--cor12);
+       margin: auto;
          border-bottom: 2px solid black;
          border-radius: 0px;
     }
     #menu a{
         
-        width: 100px;
+        width: 100%;
         align-items: center;
         
-        padding:  1rem 0;
-        margin: 0 1rem;
-        color: white;
+        padding:  1rem ;
+        margin: 1rem;
+        color: black;
         border-color: black;
        
     }
