@@ -3,8 +3,6 @@ const btnMobile = document.getElementById("btn-mobile");
 
 
 function toggleMenu(){
-    alert("aqui")
-
     if(event.type === "touchstart") {
         event.preventDefault();
     }

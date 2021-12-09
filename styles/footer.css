@@ -43,9 +43,10 @@ footer a{
 }*/
 footer{
     background-color: var(--cor10) ;
-   
+    
     
 }
+ 
 footer div{
     padding: 1em;
     max-width: 1300px;
@@ -58,6 +59,7 @@ footer div{
     display: flex;
     justify-content: space-between;
     margin: auto;
+    
     
 }
 .linkfooter {
@@ -80,6 +82,7 @@ footer img{
     margin: 15px;
     max-width: 400px;
     max-height: 90px;
+    max-height: 600px;
 }
 
 #agrad {
@@ -91,4 +94,26 @@ footer img{
     max-width: 700px;
     color: var(--cor2);
     text-align: center;
+}
+
+#imglogo-IF{
+    border: 1px ;
+    float: left;
+    margin: 10px;
+    overflow: hidden;
+    height: 138px;
+    width: 450px;
+     
+} 
+   
+@media (max-width: 750px){
+    #imglogo-IF{
+        visibility: hidden;
+        max-width: 0;
+        max-height: 0%;
+    }
+    .linkfooter{
+        
+    }
+
 }
