@@ -54,7 +54,7 @@ header{
     max-width: 1200px;
     height: 100%;
     margin: 0 auto;
-    padding: 0 60px;
+    padding: 0 30px;
     display: grid;
     grid-template-areas: 
         "lgo ... nav";
@@ -62,17 +62,19 @@ header{
     align-content: center;
 }
 .logo{
-    grid-area: lgo;
+    /*grid-area: lgo;*/ 
+    
 }
 .logo img{
     transition: all 0.4s ease-out;
-}
+    
+}/*
 .max-logo img{
     width: 280px;
 }
 .min-logo img{
     width: 190px;
-}
+}*/
 
 
 
@@ -150,10 +152,10 @@ header{
         visibility: visible;
         overflow-y: auto;
        
-    }
+    }/*
     .max-logo img{
         width: 290px;
-    }
+    }*/
     #menu li{
         display: flex;
         align-items: center;

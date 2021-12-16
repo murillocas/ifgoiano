@@ -17,7 +17,13 @@
     <header class="max-header">
         <div class="container">
             <div class="logo max-logo">
-                <a href=""><img src="imagem/ifpreto.png" alt="logomarca do IFgoiano"></a>
+                <a href="">
+                    <picture>
+                        <source media="(max-width : 800px)" srcset="imagem/Logo-preta.png" type="image/png" >
+                        <source media="(max-width: 1000px)" srcset="imagem/ifpreto.png" type="image/png">
+                        <img src="imagem/ifpreto.png" alt="logo do ifgoiano">
+                    </picture>
+                </a>
             </div>
             <nav class="nav-bar max-nav" id="nav-Menu">
                 <button id="btn-mobile" onclick="toggleMenu();">M</button>
@@ -131,7 +137,11 @@
             </div>
            
             <div  id="imglogo-IF">
-                <img src="imagem/ifpreto.png" alt="logo">
+               <picture>
+                        <source media="(max-width : 800px)" srcset="imagem/Logo-preta.png" type="image/png" >
+                        <source media="(max-width: 1000px)" srcset="imagem/ifpreto.png" type="image/png">
+                        <img src="imagem/ifpreto.png" alt="logo do ifgoiano">
+                    </picture>
             </div>
             
 

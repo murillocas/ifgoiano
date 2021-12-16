@@ -43,6 +43,7 @@ footer a{
 }*/
 footer{
     background-color: var(--cor10) ;
+   
     
     
 }
@@ -101,19 +102,17 @@ footer img{
     float: left;
     margin: 10px;
     overflow: hidden;
-    height: 138px;
-    width: 450px;
+    height: 100%;
+    width: 100%;
      
 } 
    
 @media (max-width: 750px){
     #imglogo-IF{
-        visibility: hidden;
-        max-width: 0;
-        max-height: 0%;
-    }
-    .linkfooter{
         
+    }
+    .divlinkfooter{
+        flex-direction: column;
     }
 
 }
